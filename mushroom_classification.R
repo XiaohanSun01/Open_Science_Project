@@ -46,9 +46,9 @@ dataVis <- function(data, x, y, col) {
 }
 
 set.seed(1)
-dataVis(data = data, x = 'cap.surface', y = 'cap.color', col = 'class')
+dataVis(data = data, x = 'stem.height', y = 'stem.width', col = 'class')
 
-dataVis(data = data, x = 'gill.color', y = 'cap.color', col = 'class')
+dataVis(data = data, x = 'habitat', y = 'season', col = 'class')
 
 # Data Splitting 
 set.seed(1023)
@@ -84,5 +84,4 @@ test_mushroom$predicted.response <- as.factor(test_mushroom$predicted.response)
 print(confusionMatrix(data = test_mushroom$predicted.response,  
                       reference = test_mushroom$class,
                       positive = 'edible'))
-
 sink()

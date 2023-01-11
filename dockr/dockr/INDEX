@@ -1,0 +1,31 @@
+build_and_install_package
+                        Build, Install and Load Package
+check_permissions_dir   Check Permissions for a Directory
+combine_deps            Combine Identified Dependencies with CRAN and
+                        Local Source Packages
+copy_local_pkgs         Copy Local Source Packages to Docker
+                        Subdirectory
+create_from_statement   Create From Statement for Dockerfile
+create_statement_cran_versions
+                        Create Install CRAN Packages Statement for
+                        Dockerfile
+create_statement_local_pkgs
+                        Create Install Statements for Local Source
+                        Packages
+create_statement_main_package
+                        Create Install Statement for Main Package
+identify_dependencies   Identify R Package Dependencies of Package
+match_pkg_archive       Match Archived Versions of CRAN Packages
+match_pkg_cran          Match Packages with CRAN
+match_pkg_local         Match Package with Local Source Packages
+mirror_package_versions
+                        Mirror Version Numbers of Loaded and Installed
+                        Packages
+prepare_docker_image    Prepare Docker Image
+print_end_service_information
+                        Print Service Information
+print_file              Print Contents of Text File
+set_lib_paths           Set Library Paths Temporarily
+set_rocker_image        Set Rocker Image
+setup_dir_image         Setup Directory for Docker Image
+write_lines_to_file     Write Lines to File
